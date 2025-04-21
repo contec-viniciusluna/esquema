@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36 OPR/117.0.0.0" version="26.2.13">
+  <diagram name="Fluxo Sistema Luna" id="iD6lsCNnju6OoK4A3fPI">
+    <mxGraphModel dx="1817" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="XsQNwzr4uascPY6GxLkh-1" value="Frontend (React / App)" style="shape=folder;fillColor=#dae8fc" vertex="1" parent="1">
+          <mxGeometry x="-10" y="110" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-2" value="Cadastro Cliente (CNPJ/CPF + ReceitaWS)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-3" value="Honorários (Assinatura + Eventual)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-4" value="Upload XML + Cálculo ICMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="160" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-5" value="Upload/Visualizar Guias PDF com leitura" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-6" value="DRE Entrada/Saída Manual ou Extrato" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="410" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-7" value="Backend (Flask API)" style="shape=folder;fillColor=#fff2cc" vertex="1" parent="1">
+          <mxGeometry x="500" y="100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-8" value="Banco de Dados (PostgreSQL Multi-Tenant)" style="shape=cylinder;fillColor=#d5e8d4" vertex="1" parent="1">
+          <mxGeometry x="740" y="80" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-9" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-1" target="XsQNwzr4uascPY6GxLkh-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-10" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-1" target="XsQNwzr4uascPY6GxLkh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-11" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-1" target="XsQNwzr4uascPY6GxLkh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-12" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-1" target="XsQNwzr4uascPY6GxLkh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-13" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-1" target="XsQNwzr4uascPY6GxLkh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-14" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-2" target="XsQNwzr4uascPY6GxLkh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-15" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-3" target="XsQNwzr4uascPY6GxLkh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-16" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-4" target="XsQNwzr4uascPY6GxLkh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-17" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-5" target="XsQNwzr4uascPY6GxLkh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-18" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-6" target="XsQNwzr4uascPY6GxLkh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XsQNwzr4uascPY6GxLkh-19" style="endArrow=block" edge="1" parent="1" source="XsQNwzr4uascPY6GxLkh-7" target="XsQNwzr4uascPY6GxLkh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
